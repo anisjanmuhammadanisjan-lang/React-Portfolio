@@ -22,7 +22,8 @@ export const CONTACT_LINKS = {
 
 export const PROJECT_LINKS = {
   todoAppLive: "https://to-do-react-1nz7.vercel.app/",
-  ecommerceLive: "https://iridescent-pithivier-8cfef5.netlify.app/"
+  ecommerceLive: "https://iridescent-pithivier-8cfef5.netlify.app/",
+  reactPortfolioLive: "https://react-portfolio-chi-bay.vercel.app/"
 };
 
 export const SKILLS_DATA = [
@@ -113,6 +114,17 @@ export const PROJECTS_DATA = [
     image: "/src/assets/ecommerce-website.png",
     featured: true,
     tagline: "E-Commerce Web Application"
+  },
+  {
+    id: "react-portfolio",
+    name: "React Portfolio Website",
+    description: "A modern and responsive personal portfolio website built with React.js to showcase my skills, projects, experience, and contact information.",
+    technologies: ["React.js", "JavaScript", "Tailwind CSS", "GSAP"],
+    githubUrl: null,
+    liveUrl: PROJECT_LINKS.reactPortfolioLive,
+    image: "/src/assets/react-portfolio.png",
+    featured: true,
+    tagline: "Personal Portfolio Website"
   }
 ];
 
