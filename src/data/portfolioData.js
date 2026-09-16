@@ -1,3 +1,7 @@
+import todoAppImg from '../assets/todo-app.png';
+import ecommerceImg from '../assets/ecommerce-website.png';
+import reactPortfolioImg from '../assets/react-portfolio.png';
+
 export const DEVELOPER_INFO = {
   name: "MUHAMMAD ANIS JAN",
   role: "Frontend Developer",
@@ -100,7 +104,7 @@ export const PROJECTS_DATA = [
     technologies: ["React.js", "JavaScript", "Context API", "Tailwind CSS"],
     githubUrl: null,
     liveUrl: PROJECT_LINKS.todoAppLive,
-    image: "/src/assets/todo-app.png",
+    image: todoAppImg,
     featured: true,
     tagline: "Productivity Application"
   },
@@ -111,7 +115,7 @@ export const PROJECTS_DATA = [
     technologies: ["React.js", "JavaScript", "Tailwind CSS", "REST API", "Responsive Design"],
     githubUrl: null,
     liveUrl: PROJECT_LINKS.ecommerceLive,
-    image: "/src/assets/ecommerce-website.png",
+    image: ecommerceImg,
     featured: true,
     tagline: "E-Commerce Web Application"
   },
@@ -122,7 +126,7 @@ export const PROJECTS_DATA = [
     technologies: ["React.js", "JavaScript", "Tailwind CSS", "GSAP"],
     githubUrl: null,
     liveUrl: PROJECT_LINKS.reactPortfolioLive,
-    image: "/src/assets/react-portfolio.png",
+    image: reactPortfolioImg,
     featured: true,
     tagline: "Personal Portfolio Website"
   }
